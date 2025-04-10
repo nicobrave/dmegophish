@@ -5,7 +5,7 @@
 	  "cert_path": "",
 	  "key_path": "",
 	  "trusted_origins": [
-		"admin.dmegophish.onrender.com"
+		"dmegophishadmin.nicobrave.com"
 	  ]
 	},
 	"phish_server": {
