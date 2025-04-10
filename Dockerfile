@@ -5,7 +5,7 @@ WORKDIR /app
 COPY . /app
 
 RUN apk update && apk upgrade && \
-    apk add --no-cache openssl ca-certificates && \
+    apk add --no-cache bash openssl ca-certificates && \
     chmod +x ./gophish && \
     chmod +x ./start.sh
 
