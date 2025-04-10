@@ -5,8 +5,7 @@
 	  "cert_path": "",
 	  "key_path": "",
 	  "trusted_origins": [
-		"https://dmegophish.onrender.com",
-		"https://dmegophish.onrender.com/admin"
+		"dmegophish.onrender.com"
 	  ]
 	},
 	"phish_server": {
