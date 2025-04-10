@@ -1,10 +1,13 @@
 FROM debian:bullseye-slim
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 WORKDIR /app
 
 COPY . /app
 
-RUN apt-get update && apt-get install -y openssl ca-certificates nginx && \
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends openssl ca-certificates nginx && \
     chmod +x ./gophish && \
     chmod +x ./start.sh && \
     rm -rf /var/lib/apt/lists/*
