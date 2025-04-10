@@ -6,7 +6,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN apt-get update --fix-missing && \
+RUN apt-get update --fix-missing --allow-releaseinfo-change && \
     apt-get install -y --no-install-recommends openssl ca-certificates nginx && \
     chmod +x ./gophish && \
     chmod +x ./start.sh && \
