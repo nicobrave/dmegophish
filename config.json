@@ -1,11 +1,11 @@
 {
 	"admin_server": {
-	  "listen_url": "127.0.0.1:3333",
+	  "listen_url": "0.0.0.0:3333",
 	  "use_tls": false,
 	  "cert_path": "",
 	  "key_path": "",
 	  "trusted_origins": [
-		"dmegophish.onrender.com"
+		"admin.dmegophish.onrender.com"
 	  ]
 	},
 	"phish_server": {
