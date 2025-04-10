@@ -4,7 +4,10 @@
 	  "use_tls": false,
 	  "cert_path": "",
 	  "key_path": "",
-	  "trusted_origins": ["https://dmegophish.onrender.com"]
+	  "trusted_origins": [
+		"https://dmegophish.onrender.com",
+		"https://dmegophish.onrender.com/admin"
+	  ]
 	},
 	"phish_server": {
 	  "listen_url": "127.0.0.1:8080",
